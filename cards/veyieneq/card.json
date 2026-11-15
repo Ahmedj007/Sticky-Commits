@@ -1,0 +1,11 @@
+{
+  "$schema": "../../card.schema.json",
+  "name": "Vazheen",
+  "title": "Keep clicking this card 😉",
+   "image": "ren.jpg",
+  "emoji": "🐰",
+  "css": "style.css",
+  "attach": "pin",
+  "about": "The worst place to drown in is the past.",
+  "facts": ["Anime Binger 🌌", "Music Connoisseur 🎶", "Reading Veteran 📖"]
+}

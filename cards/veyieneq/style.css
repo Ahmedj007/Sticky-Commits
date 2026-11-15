@@ -1,0 +1,142 @@
+/* Holographic Foil Sticker Theme */
+
+.sticker {
+  --edge: #dd4e0c;
+  --bg: #161622;
+  --ink: #f8f9fa;
+  --accent: #d60e0e;
+
+  border-radius: 1.75em 0.5em;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.sticker:hover {
+  transform: translateY(-3px) rotate(-1deg);
+  box-shadow: 0 10px 22px rgba(6, 86, 235, 0.3);
+}
+
+.surface {
+  background:
+    radial-gradient(circle at 15% 15%, rgba(20, 206, 20, 0.22), transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(72, 202, 228, 0.22), transparent 45%),
+    linear-gradient(135deg, #161622 0%, #22223b 100%);}
+
+.photo {
+  border: 2px solid var(--accent);
+  border-radius: 1.2em 0.35em;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.photo img {
+  filter: contrast(1.06) saturate(1.2);
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.sticker:hover .photo img {
+  transform: scale(1.04);
+  filter: contrast(1.1) saturate(1.35);
+}
+
+.name {
+  color: #ffffff;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 0.35em rgba(180, 15, 15, 0.85);
+}
+
+.title {
+  color: var(--edge);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.label {
+  background: rgba(8, 215, 223, 0.18);
+  color: var(--accent);
+  border: 1px solid rgba(38, 162, 219, 0.45);
+  border-radius: 999px;
+  padding: 0.15em 0.6em;
+  font-size: 0.8em;
+}
+
+.sub {
+  color: #b8c0ff;
+  opacity: 0.9;
+}
+
+.emoji-bubble {
+  background: linear-gradient(135deg, #2337e9, #e62910);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+
+.ring {
+  border: 2px solid var(--edge);
+  box-shadow: 0 0 10px rgba(29, 189, 8, 0.45);
+}
+
+.tape {
+  background: rgba(226, 221, 147, 0.45);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pin {
+  background: radial-gradient(circle at 30% 30%, #ffffff, var(--accent));
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+}
+
+.card-back {
+  background: linear-gradient(160deg, #181826 0%, #101018 100%);
+  color: #f8f9fa;
+}
+
+.card-back a,
+.card-back .sub {
+  color: #df0c33;
+  font-weight: 600;
+}
+
+.card-back .about {
+  color: #f8f9fa;
+  border-left: 3px solid var(--accent);
+  padding-left: 0.75em;
+  line-height: 1.5;
+}
+
+.card-back .facts li {
+  background: rgba(255, 255, 255, 0.09);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 0.55em;
+  padding: 0.4em 0.75em;
+  margin-bottom: 0.4em;
+}
+
+.card-back .facts li::marker {
+  color: var(--edge);
+}
+
+.surface {
+  position: relative;
+}
+
+.surface::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: center / cover no-repeat url("lol.gif");
+  border-radius: inherit;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+  /* Holds the rickroll on screen for 4s after a click */
+  transition: opacity 0.3s ease 4s;
+}
+
+.sticker:active .surface::after {
+  opacity: 1;
+  /* Pops in immediately when clicked */
+  transition: opacity 0s 0s;
+}
