@@ -19,7 +19,7 @@ and that phone or computer remembers it. No account, no name, nothing else.
 
 The sticker with the **most likes** wins **a one-month Claude subscription**.
 
-- 🗓️ Voting is open from **November 13** until **December 13, 2026** (23:59, UTC+3).
+- 🗓️ Voting is open from **November 13** until **December 1, 2026** (23:59, UTC+3).
 - ❤️ Your code gives you one like on each sticker, on any device. Like as many stickers as you want!
 - 🤝 In a tie, the sticker that reached its total first wins.
 - 🧩 Every merged sticker enters automatically. (The demo stickers don't count.)

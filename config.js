@@ -30,7 +30,7 @@ window.STICKER_WALL = {
   contest: {
     enabled: true,
     start: '2026-11-13T00:00:00+03:00',
-    end: '2026-12-13T23:59:59+03:00',
+    end: '2026-12-01T23:59:59+03:00',
     prize: '1 month of Claude',
     prizeDetail: 'A one-month Claude subscription for the maker of the most-loved sticker.',
   },
