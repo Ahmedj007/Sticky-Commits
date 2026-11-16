@@ -1,0 +1,27 @@
+{
+  "$schema": "../../card.schema.json",
+  "name": "Jumana",
+  "title": "If you see me in public, it's AI!",
+  "image": "room.jpg",
+  "imageFit": "cover",
+  "imagePosition": "52% 50%",
+  "emoji": "🧩",
+  "shape": "classic",
+  "finish": "matte",
+  "pattern": "none",
+  "font": "Abril Fatface",
+  "colors": {
+    "background": "#2a3e78",
+    "text": "#f3ead3",
+    "accent": "#b5283c"
+  },
+  "attach": "none",
+  "tilt": -3,
+  "css": "style.css",
+  "about": "Hi, I'm Jumana. Glad you're here! Here are a few little reminders for you:",
+  "facts": [
+    "It's okay to start again.",
+    "Collect moments, not worries.",
+    "Keep going, even if it's slowly."
+  ]
+}
