@@ -1,0 +1,26 @@
+{
+  "$schema": "../../card.schema.json",
+  "image": "art.svg",
+  "name": "Error 404",
+  "title": "sticker failed to load… tap ♡ below to retry",
+  "emoji": "👾",
+  "shape": "classic",
+  "finish": "glossy",
+  "pattern": "dots",
+  "font": "Silkscreen",
+  "colors": {
+    "background": "linear-gradient(165deg,#f8f7fc,#e8e6f3)",
+    "text": "#2e2a45",
+    "accent": "#7c6cf2",
+    "name": "#2e2a45"
+  },
+  "attach": "tape",
+  "tilt": 3,
+  "about": "Nothing is broken, I promise 😹 Just a cat lover wishing good luck to everyone 💜",
+  "facts": [
+    "💌 Thanks for stopping by!",
+    "🍀 Good luck, you got this",
+    "💜 You made this cat smile"
+  ],
+  "css": "style.css"
+}
