@@ -1,0 +1,28 @@
+{
+  "$schema": "../../card.schema.json",
+  "image": "assets/marinette-sleeping.png",
+  "imageFit": "contain",
+  "name": "Ruya.exe",
+  "title": "Software engineering student",
+  "emoji": "∞",
+  "github": "ruya11",
+  "shape": "classic",
+  "finish": "glossy",
+  "pattern": "stars",
+  "font": "Fredoka",
+  "colors": {
+    "background": "linear-gradient(165deg,#FFF0F4,#F8C9D7)",
+    "text": "#34243B",
+    "accent": "#E94B76",
+    "name": "#34243B"
+  },
+  "attach": "tape",
+  "tilt": -2,
+  "about": "-A little bit of logic, a little bit of chaos, and too many side quests.",
+  "facts": [
+    "🐞 Debugging life... please wait",
+    "🎮 Powered by anime, games & curiosity",
+    "☕ Fueled by coffee and last-minute ideas"
+  ],
+  "css": "style.css"
+}
