@@ -76,3 +76,17 @@
 /* back side: hide the "stuck on …" date, keep the Share button on the right */
 .back-foot > span:first-child { display: none; }
 .back-foot { justify-content: flex-end; }
+
+/* front: a little lilac signature at the bottom-left, like an artist's autograph
+   (signature.svg has the Dancing Script font built in, so it looks the same on every phone) */
+.front .wrap::after {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  left: 1.1em;
+  bottom: .75em;
+  width: 6.4em;
+  height: 1.8em;
+  background: url("signature.svg") left center / contain no-repeat;
+  pointer-events: none;
+}
