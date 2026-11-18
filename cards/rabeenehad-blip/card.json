@@ -1,0 +1,28 @@
+{
+  "$schema": "../../card.schema.json",
+  "name": "Rabea Targaryen",
+  "title": "Born of Fire. Destined to Reign.",
+  "emoji": "🔥",
+  "image": "portrait.jpg",
+  "imageFit": "cover",
+  "imagePosition": "50% 40%",
+  "shape": "classic",
+  "finish": "holo",
+  "pattern": "none",
+  "font": "Cinzel",
+  "colors": {
+    "background": "#100b0d",
+    "text": "#f5e6c8",
+    "accent": "#d99a32",
+    "name": "#ffe3a1"
+  },
+  "attach": "none",
+  "tilt": 0,
+  "css": "style.css",
+  "about": "I am Rabea. A curious mind with a dragon's spirit. I turn ambitious ideas into things worth remembering — one challenge, one creation, one spark at a time.",
+  "facts": [
+    "🐉 Creativity is my dragonfire.",
+    "⚔️ Every challenge sharpens my craft.",
+    "🔥 Here to build something unforgettable."
+  ]
+}
