@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <g fill="none" stroke="#E8ECEF" stroke-width=".6" stroke-opacity=".09">
+    <path d="M0 35H140M0 70H140M0 105H140M35 0V140M70 0V140M105 0V140"/>
+    <path d="M70 0V140M0 70H140" stroke="#00E5FF" stroke-opacity=".07" stroke-dasharray="4 4"/>
+    <circle cx="70" cy="70" r="24" stroke="#C8102E" stroke-opacity=".16" stroke-dasharray="3 3"/>
+    <path d="M18 122L70 70L122 32" stroke="#C8102E" stroke-opacity=".18" stroke-dasharray="2 2"/>
+  </g>
+  <!-- Subtle Blood Spatter Micro-Droplets -->
+  <g fill="#9E050D" fill-opacity=".34">
+    <circle cx="28" cy="24" r="2.4"/>
+    <circle cx="33" cy="28" r="1.1"/>
+    <circle cx="114" cy="96" r="3.1"/>
+    <path d="M114 99C113 105 115 109 114 114C113.4 109 114.6 104 114 99Z"/>
+    <circle cx="108" cy="90" r="1.2"/>
+    <circle cx="46" cy="112" r="1.8"/>
+  </g>
+</svg>

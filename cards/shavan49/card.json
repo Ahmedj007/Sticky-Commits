@@ -1,0 +1,28 @@
+{
+  "$schema": "../../card.schema.json",
+  "name": "SHAVAN",
+  "title": "TONIGHT'S THE NIGHT··",
+  "emoji": "🩸",
+  "image": "dexter-main.jpg",
+  "imageFit": "cover",
+  "imagePosition": "50% 35%",
+  "shape": "classic",
+  "finish": "holo",
+  "pattern": "none",
+  "font": "Cinzel",
+  "colors": {
+    "background": "#0A0A0C",
+    "text": "#E8ECEF",
+    "accent": "#B80F1A",
+    "name": "#F4F6F8"
+  },
+  "attach": "none",
+  "tilt": 0,
+  "css": "style.css",
+  "about": "HEY SHAVAN IS HERE!! HOPE YOU'RE DOING WELL · REMEMBER: EVERY FAILURE BRINGS YOU ONE STEP CLOSER TO SUCCESS.",
+  "facts": [
+    "01. RULE NUMBER ONE: STAY IN CONTROL.",
+    "02. SOMEWHERE IN BETWEEN.",
+    "03. PATIENCE REVEALS EVERYTHING."
+  ]
+}
